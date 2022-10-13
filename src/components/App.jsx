@@ -1,8 +1,13 @@
+import React, { useState, useEffect } from "react";
+import "../styles/App.css";
+import { Header } from "./Header.jsx";
+import { Picture } from "./Picture.jsx"
 
-function App() {
+export default function App() {
   return (
-    <div>Hello World</div>
+    <div>
+      <Header className="header"/>
+      <Picture className="picture"/>
+    </div>
   );
 }
-
-export default App;

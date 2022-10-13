@@ -1,0 +1,11 @@
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.picture-img {
+  transition: transform .3s ease-in-out;
+}
+.picture-img:hover {
+  transform: rotate(90deg);
+}
